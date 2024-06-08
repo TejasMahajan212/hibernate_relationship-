@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.joinExample.Project" table="project">
+<id name="projectId" column="projectid"/>
+<property name="ProjectName" column="projectname" length="10"/>
+<property name="ProjectDesc" column="projectdesc" length="20"/>
+</class>
+</hibernate-mapping>
